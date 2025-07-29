@@ -5,6 +5,7 @@ import 'package:lacazuela_mobile/screens/usuarios_screen.dart';
 import 'package:lacazuela_mobile/screens/productos_screen.dart';
 import 'package:lacazuela_mobile/screens/home_screen.dart';
 import 'package:lacazuela_mobile/screens/login_screen.dart';
+import 'package:lacazuela_mobile/screens/catalogo_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => HomeScreen(),
         '/productos': (context) => ProductosScreen(),
         '/usuarios': (context) => UsuariosScreen(),
+        '/catalogos': (context) => CatalogoScreen(),
       },
     );
   }

@@ -44,7 +44,7 @@ class BaseScreen extends StatelessWidget {
               leading: Icon(Icons.category),
               title: Text('Catálogos'),
               onTap: () {
-                // Navegar a la pantalla de catálogos
+                Navigator.pushReplacementNamed(context, '/catalogos');
               },
             ),
             ListTile(
